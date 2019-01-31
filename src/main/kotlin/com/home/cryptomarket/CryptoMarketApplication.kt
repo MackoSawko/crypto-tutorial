@@ -11,3 +11,4 @@ class CryptoMarketApplication
 fun main(args: Array<String>) {
 	runApplication<CryptoMarketApplication>(*args)
 }
+
