@@ -7,6 +7,6 @@ import javax.persistence.Id
 @Entity
 class Wallet(
         @Id @GeneratedValue val id: Long = 0,
-        val btc: Double = 0.0,
-        val usd: Double = 0.0
+        var btc: Double = 0.0,
+        var usd: Double = 0.0
 )

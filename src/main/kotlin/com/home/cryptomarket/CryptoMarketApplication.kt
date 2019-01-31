@@ -11,14 +11,3 @@ class CryptoMarketApplication
 fun main(args: Array<String>) {
 	runApplication<CryptoMarketApplication>(*args)
 }
-
-
-
-@RestController
-class HelloController{
-
-	@GetMapping
-	fun getHello() = "Hello World!"
-
-
-}
